@@ -1,7 +1,7 @@
 RegisterCommand('car', function(source, args)
     local vehicleName = args[1] or 'adder'
 
-    if not IsModelInCdimage(vehicleName) or not IsModelAVehivcle(vehicleName) then
+    if not IsModelInCdimage(vehicleName) or not IsModelAVehicle(vehicleName) then
         TriggerEvent('chat:addMessage', {
             args= {'uh, ' .. vehicleName ..' is not a vehicle,',}
         })
