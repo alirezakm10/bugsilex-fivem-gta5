@@ -18,7 +18,7 @@ RegisterCommand('car', function(source, args)
     local pos = GetEntityCoords(playerPed)
     local heading = GetEntityHeading(playerPed)
 
-    local vehicle = createVehicle(
+    local vehicle = CreateVehicle(
         vehicleName,
         pos,
         heading,
